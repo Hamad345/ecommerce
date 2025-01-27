@@ -93,19 +93,21 @@ export default function Navbar() {
     </div>
     {/* 3rd portion  */}
     <div className='flex'>
-      <div>jjjjjj</div>
-      <div className=" relative p-0 flex flex-col " >
-        <img src={banner} className=' absolute  w-[100%] '/>
-        <h1 className='z-10 font-[200px] text-[1vw] absolute top-8 left-5  '>Latest trending<b></b>
+      <div></div>
+      <div className=" bg-cover bg-center bg-no-repeat w-[100%] h-auto  px-3  py-4  " style={{backgroundImage:`url(${banner}) `,backgroundSize:"100%"}} >
+    
 
-        </h1>
-        <h1 className='absolute z-[3vw] text-xl top-16  font-bold left-5 '>Electronic items</h1>
-              <button className='bg-[#EFF2F4] text-[#0D6EFD]  p-2 w-[] absolute top-28 left-5 ' style={{borderRadius:"8px"}} >Learn More</button>
+      <p className='text-lg font-lg -py-2 '>Latest trending <br /> <span className='font-bold'>Electronic items</span></p>
+    
+     <button className='bg-[#EFF2F4] text-[#0D6EFD]  whitespace-nowrap font-lg px-2 py-1 ' style={{borderRadius:"6px"}} >Learn More</button>
+    
+
+
 
   
 
       </div>
-      <div>jjjjjjjjjjjjjjjjjjjjjjjjj</div>
+      <div></div>
     </div>
     </>
   )
